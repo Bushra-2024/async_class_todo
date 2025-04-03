@@ -50,7 +50,7 @@ class App extends Component {
         editTaskId: null,
       });
     } catch (error) {
-      console.error('Error during edit:', error);
+      console.error(error);
     }
   };
   
